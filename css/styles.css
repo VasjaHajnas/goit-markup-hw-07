@@ -267,6 +267,9 @@ a {
     flex-direction: column;
     gap: 12px;
   }
+  .header-nav-list {
+    font-size: 12px;
+  }
 }
 
 /**
@@ -519,9 +522,12 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.8px) {
   .benefist-list-item:not(:last-child) {
     margin-bottom: 72px;
+  }
+  .benefist {
+    text-align: center;
   }
 }
 
@@ -536,7 +542,6 @@ a {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-    text-align: center;
   }
 
   .benefist-item {
@@ -589,7 +594,12 @@ a {
   }
 
   .benefist-item {
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 }
 
